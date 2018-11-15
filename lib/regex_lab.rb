@@ -13,7 +13,7 @@ end
 
 
 def words_starting_with_un_and_ending_with_ing(text)
-  /\A(un)\z(ing)/.scan(text)
+  text.scan(/\Aun\zing/)
 end
 
 def words_five_letters_long(text)
