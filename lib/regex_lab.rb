@@ -1,6 +1,6 @@
 def starts_with_a_vowel?(word)
   ary = []
-  ary << word.match(/\A[aeiou]/)
+  ary << word.match(/^[aeiou]/)
   if ary.length > 0 
     return true 
   else 
