@@ -4,6 +4,7 @@ def starts_with_a_vowel?(word)
   if ary.length > 0 
     return true 
   else 
+    return false 
 end
 end
 
