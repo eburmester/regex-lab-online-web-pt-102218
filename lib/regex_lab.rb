@@ -3,8 +3,12 @@ def starts_with_a_vowel?(word)
   ary << word.match(/^[aeiou]/)
   if ary.length > 0 
     return true 
-  else 
-    return false 
+  end
+  other_ary = []
+  other_ary << word.match(/[^aeiou]/)
+  if other_ary.length > 0 
+    return true 
+  end 
 end
 end
 
